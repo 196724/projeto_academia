@@ -1,0 +1,55 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #66c2ff;
+}
+
+.tabela-membros {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela-membros th, .tabela-membros td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.tabela-membros th {
+    background-color: #333;
+    color: #fff;
+}
+
+.tabela-membros tbody tr:hover {
+    background-color: #444;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #66c2ff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.adicionar {
+    background-color: #28a745;
+}
+
+.editar {
+    background-color: #ffc107;
+}
+
+.deletar {
+    background-color: #dc3545;
+}
+
+.button:hover {
+    background-color: #4fa3d1;
+}
